@@ -12,6 +12,17 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        'noto-sans-thai': ['Noto Sans Thai', 'sans-serif'], // เพิ่มฟอนต์ Noto Sans Thai
+      },
+      fontSize: {
+        'custom': '12px', 
+        'title' :'24px'
+      },
+      lineHeight: {
+        'custom': '16px', 
+        'title': '36px'
+      },
     },
   },
   plugins: [],
